@@ -131,13 +131,12 @@ body, html {
 /*About Us List Styling*/
 .dl-wrapper{
     width: 100%;
-    overflow: visible;
-    margin: 100px;
+    margin: 100px 0px;
 }
 .dl-wrapper dl{
     font-family: 'Poppins', sans-serif;
     width: 50%;
-    margin: 0 290px 0;
+    margin: 0 auto;
 }
 .dl-wrapper hr{
     width: 100%;
@@ -147,7 +146,7 @@ body, html {
 }
 .dl-wrapper dt{
     font-size: 20px;
-    margin: 0 auto;
+    font-weight: 600;
     margin: 10px 10px 20px 60px;
     float: left; 
     clear: left; 
@@ -200,14 +199,15 @@ body, html {
 }
 
 .fl-table thead th {
-    color: #ffffff;
+    color: black;
     background: #FEB692;
+    font-weight: 600;
 }
 
 
 .fl-table thead th:nth-child(odd) {
-    color: #ffffff;
-    background: #EA5455;
+    color: black;
+    background: #F07A7B;
 }
 
 .fl-table tr:nth-child(even) {
@@ -293,7 +293,7 @@ body, html {
   .input {
     background-image: linear-gradient(135deg, #feb692 0%, #ea5455 50%);
     height: 50px;
-    width: 300px;
+    width: 300vw;
     padding: 0 1rem;
     color: #fff;
     font-size: 15px;
