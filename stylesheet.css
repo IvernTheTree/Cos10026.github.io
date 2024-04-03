@@ -25,14 +25,15 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    text-align: center;
   }
   
 /**/
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 .navbar_logo{
     display: flex;
@@ -102,6 +103,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 0 0 100px;
 }
 #about-hero {
     text-align: center;
@@ -128,35 +130,47 @@ body, html {
     background: linear-gradient(135deg, #ea5455 5%, #feb692 50%);
     color: white;
   }
+
 /*About Us List Styling*/
-.dl-wrapper{
+.dl-caption h2{
+    text-align: center;
+    margin: auto;
     width: 100%;
-    margin: 100px 0px;
-}
-.dl-wrapper dl{
-    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+  }
+  .dl-caption hr{
     width: 50%;
-    margin: 0 auto;
-}
-.dl-wrapper hr{
-    width: 100%;
-    height: 1px;
+    height: 5px;
     background: linear-gradient(to right,#ffc400,#EA5455);  
     position: relative;
 }
+dl.dl-wrapper {
+    overflow:auto;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    margin: 0 auto 100px;
+    padding: 0;
+}
+
 .dl-wrapper dt{
     font-size: 20px;
     font-weight: 600;
-    margin: 10px 10px 20px 60px;
+    margin: 0;
+    padding: 5px;
     float: left; 
     clear: left; 
-    width: 30%; 
+    width: 300px; 
+    border-bottom: 2px solid #ea5455;
+    text-align: right;
 }
 .dl-wrapper dd{
-    margin: 20px 0 0 80px; 
-    padding: 0 0 0 0; 
+    float: left;
+    margin: 0;
+    padding: 5px; 
     font-size: 20px;
     text-align: center;
+    width: 610px;
+    border-bottom: 2px solid #ea5455;
 }
 
 /*Time Table Styles */
